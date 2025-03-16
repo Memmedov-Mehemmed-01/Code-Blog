@@ -13,15 +13,17 @@
             <div class="h-[84px]  flex justify-between items-center">
                 <div class="w-[84px] h-[84px]">
                     <a href="#">
-                        <img src="../dist/assets/icons/apple-touch-icon.png" alt="logo"/>
+                        <img src="../dist/assets/icons/apple-touch-icon.png" alt="logo" />
                     </a>
                 </div>
                 <nav>
                     <ul class="flex text-white flex items-center gap-3 font-inter text-[18px] leading-6">
                         <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">Blog</a></li>
-                        <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">Projects</a></li>
+                        <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">Projects</a>
+                        </li>
                         <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">About</a></li>
-                        <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">Newsletter</a></li>
+                        <li><a href="#" class="text-white hover:text-[#00C1FE] transition duration-300">Newsletter</a>
+                        </li>
                         <li>
                             <div>
                                 <input type="checkbox" id="darkmode-toggle" class="w-0 h-0 hidden peer">
@@ -52,9 +54,81 @@
         </div>
     </header>
     <section class="bg-black mt-[112px]">
-        <div class="max-w-[1216px] border-t border-b p-3.5 border-white container mx-auto">
+        <div class="max-w-[1216px] container mx-auto border-t border-b p-3.5 border-white ">
             <div class="flex justify-center items-center bg-black ">
                 <h1 class="text-[243.8px] font-inter font-bold text-white uppercase">The Blog</h1>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="max-w-[1216px] container mx-auto">
+            <div class="py-7 ">
+                <h2 class="text-2xl font-semibold text-white leading-8">Recent blog posts</h2>
+            </div>
+            <div>
+                <div class="grid gap-8 grid-cols-2">
+                    <div class="bg-black row-span-2">
+                        <a href="#" >
+                            <div class="flex flex-col ">
+                                <div class="h-[228px] mb-8">
+                                    <img src="../dist/assets/images/garrett-parker-DlkF4-dbCOU-unsplash.jpg" alt="mountain" class="w-full h-full object-cover">
+                                </div>
+                                <div class="flex flex-col gap-6">
+                                    <div class="bg-black flex flex-col gap-2">
+                                        <p><time datetime="Sunday ,  1 Jan 2023" class="text-[14px] font-inter font-semibold leading-5 text-[#6941C6]">Sunday , 1 Jan 2023</time></p>
+                                        <h3 class="text-white font-inter leading-8 text-2xl font-semibold">UX review presentations</h3>
+                                        <p class="text-base font-inter font-normal text-[#C0C5D0]">How do you create compelling presentations that wow your colleagues and impress your managers?</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#6941C6] py-0.5 px-2.5 bg-[#F9F5FF] rounded-2xl">Design</a>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#3538CD] py-0.5 px-2.5 bg-[#EEF4FF] rounded-2xl">Research</a>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#C11574] py-0.5 px-2.5 bg-[#FDF2FA] rounded-2xl">Presentation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="flex gap-6">
+                                <div class="w-[320px] h-[200px]">
+                                    <img src="../dist/assets/images/nasa-WKT3TE5AQu0-unsplash.jpg" alt="mountain" class="w-full h-full object-cover">
+                                </div>
+                                <div class="flex flex-col gap-6">
+                                    <div class="bg-black">
+                                        <p><time datetime="Sunday , 1 Jan 2023" class="text-[14px] mb-3 font-inter font-semibold leading-5 text-[#6941C6]">Sunday , 1 Jan 2023</time></p>
+                                        <h3 class="text-white  font-inter mt-2 leading-8 text-[18px] font-semibold">Migrating to Linear 101</h3>
+                                        <p class="text-base font-inter font-normal w-[248px] text-[#C0C5D0]">Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get..</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#6941C6] py-0.5 px-2.5 bg-[#F9F5FF] rounded-2xl">Design</a>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#3538CD] py-0.5 px-2.5 bg-[#EEF4FF] rounded-2xl">Research</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <div class="flex gap-6">
+                                <div class="w-[320px] h-[200px]">
+                                    <img src="../dist/assets/images/nitish-meena-RbbdzZBKRDY-unsplash.jpg" alt="mountain" class="w-full h-full object-cover">
+                                </div>
+                                <div class="flex flex-col gap-6">
+                                    <div class="bg-black">
+                                        <p><time datetime="Sunday , 1 Jan 2023" class="text-[14px] mb-3 font-inter font-semibold leading-5 text-[#6941C6]">Sunday , 1 Jan 2023</time></p>
+                                        <h3 class="text-white  font-inter mt-2 leading-8 text-[18px] font-semibold">Building your API Stack</h3>
+                                        <p class="text-base font-inter font-normal w-[248px] text-[#C0C5D0]">The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#6941C6] py-0.5 px-2.5 bg-[#F9F5FF] rounded-2xl">Design</a>
+                                        <a href="#" class="text-[14px] font-inter font-medium text-[#3538CD] py-0.5 px-2.5 bg-[#EEF4FF] rounded-2xl">Research</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
